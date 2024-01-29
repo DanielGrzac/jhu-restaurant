@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>David Chu's China Bistro</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,10 +15,40 @@
     <header>
         <nav id="header-nav" class="navbar navbar-default">
             <div class="container">
+                <div class="navbar-header">
+                    <div class="pull-left"><h1>Food LLC</h1></div>
+                </div>
 
+            </div>
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon bar"></span>
+                <span class="icon bar"></span>
+            </button>
+            <div id="collapsable-nav" class="collapse navbar-collapse">
+                <ul id="nav-list" class="nav navbar-nav navbar-right hidden-lg hidden-md hidden-sm">
+                    <li>Chicken</li>
+                    <li>Beef</li>
+                    <li>Sushi</li>
+                </ul>
             </div>
 
         </nav>
     </header>
+    <h2>Our Menu</h2>
+    <div class="row">
+        <div class="col-lg-12 col-md-12" id="item1">
+            <div class="encase"><p class="text-center" id="food">Chicken</p><br><br><p class="item-txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum. Morbi maximus lectus ut convallis lobortis. Phasellus bibendum consectetur augue, at viverra purus facilisis ac. Sed et gravida nisl, id convallis lorem. Duis volutpat mauris erat, a dictum mauris sagittis sed. Etiam eu pulvinar mauris. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec eget auctor lacus, id hendrerit mi. Mauris scelerisque posuere elit, et volutpat massa tincidunt sed. Pellentesque sed nulla mollis, varius lorem id, tincidunt lorem. Sed vestibulum, metus eu commodo sagittis, mauris nisl rutrum ex, eget dignissim tortor augue eget lorem.
+
+                Donec erat lectus, tempus vitae consequat vel, tempor ut risus. Ut lacus magna, sagittis sed sapien vitae, sollicitudin aliquet mauris. Fusce aliquam mattis odio vitae mattis.<br><br> In non malesuada leo. Integer et venenatis enim, vitae sagittis lorem. Nunc viverra scelerisque gravida. Morbi vel arcu egestas nisi pretium posuere in ac justo. Donec malesuada lectus lacus, et suscipit ex iaculis a. Vivamus laoreet blandit porta.
+                
+                Ut et nulla ultricies, euismod lorem lobortis, tristique lectus. Morbi id leo metus. Vivamus ut porttitor diam, id facilisis nisl. Aenean finibus tellus dui, ac sollicitudin ligula aliquam id. <br><br>Nullam quis scelerisque augue, ac placerat purus. Vivamus a eleifend risus. Nulla sit amet laoreet diam. Curabitur nec luctus dolor.
+                
+                Morbi commodo bibendum turpis. Aliquam vitae ligula eget tortor finibus vestibulum vel vel ipsum. Pellentesque et purus nisi. Sed lectus dui, fermentum nec auctor eget, molestie venenatis odio. Morbi auctor libero mi, ac efficitur diam dictum nec. Phasellus fringilla nisl ligula, malesuada bibendum risus posuere at. Suspendisse euismod sodales felis, quis auctor diam. Cras sed mi pharetra, ullamcorper sem ut, venenatis arcu. Nullam ac eleifend augue. Proin ultricies lorem id sollicitudin auctor. In convallis semper tortor nec ullamcorper. Mauris efficitur sapien urna, eu vestibulum orci cursus non. Ut mattis eleifend ante id convallis. Praesent ut nibh et turpis hendrerit sodales eget eget elit.</p>
+            </div>
+        </div>
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="bootstrap.js"></script>
 </body>
 </html>
