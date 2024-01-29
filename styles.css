@@ -10,6 +10,7 @@ body {
     background-color: #f6b319;
     border-radius: 0;
     border: 0;
+    padding: 10px;
 }
 
 #nav-list {
@@ -22,28 +23,26 @@ body {
 }
 
 
-
-.container {
-    padding: 10px;
-}
-
 h1 {
     color: grey;
 }
+
 h2 {
     margin: 0;
     margin-bottom: 35px;
     padding: 10px;
     text-align: center;
-    color: whitesmoke;
+    color: darkgray;
 }
 
-
+p {
+    color: black;
+}
 
 .encase {
     border: 1px solid black;
     border-radius: 10px;
-    background-color: darkslategray;
+    background-color: grey;
     width: 90%;
     height: 1000px;
     margin-right: auto;
@@ -59,4 +58,14 @@ h2 {
     color: black;
     font-size: 20px;
     font-weight: 600;
+}
+
+#menu {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#collapsable-nav {
+    margin-top: 75px;
 }
